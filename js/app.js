@@ -7,13 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   function getTime(){
-
-    
     hour.innerHTML = new Date().getHours() + ':'
     min.innerHTML = new Date().getMinutes() + ':'
     secs.innerHTML = new Date().getSeconds() <= 9 ? '0' + new Date().getSeconds() : new Date().getSeconds()
-
-
 
   }
 
